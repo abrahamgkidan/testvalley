@@ -40,6 +40,7 @@ const BannerSlides: React.FC<BannerSlidesProps> = ({ slides }) => {
         slidesPerView={1}
         spaceBetween={20}
         initialSlide={1}
+        lazyPreloadPrevNext={2}
         className={styles.swiperContainer}
       >
         {slides.map((slide, index) => (
