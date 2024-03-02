@@ -47,9 +47,9 @@ const BannerSlides: React.FC<BannerSlidesProps> = ({ slides }) => {
             <Image
               className={styles.slideImage}
               src={slide.imageUrl}
-              srcSet={
-                `${slide.mobileImageUrl} 600w, ${slide.imageUrl} 1200w` as any
-              }
+              // srcSet={
+              //   `${slide.mobileImageUrl} 600w, ${slide.imageUrl} 1200w` as any
+              // }
               alt={slide.title}
               loading="lazy"
               width={0}

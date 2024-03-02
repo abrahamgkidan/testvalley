@@ -16,7 +16,7 @@ const ShortcutItem: React.FC<{ shortcut: Shortcut }> = ({ shortcut }) => {
     <div className={styles.shortcut}>
       <Image
         src={shortcut.imageUrl}
-        srcSet={`${shortcut.mobileImageUrl} 480w, ${shortcut.imageUrl} 900w`}
+        // srcSet={`${shortcut.mobileImageUrl} 480w, ${shortcut.imageUrl} 900w`}
         alt={shortcut.title}
         layout="responsive"
         loading="lazy"
