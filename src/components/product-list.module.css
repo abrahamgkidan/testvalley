@@ -1,0 +1,13 @@
+.products {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px 8px;
+  align-items: start;
+}
+
+.productItem {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+}
