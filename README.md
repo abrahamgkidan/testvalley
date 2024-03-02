@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## TestValley
+A replica of the [Testvalley](https://testvalley.kr) e-commerce web app built using [Next.js](https://nextjs.org/).
 
 ## Getting Started
 
