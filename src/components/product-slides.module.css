@@ -1,0 +1,39 @@
+.swiper-container {
+  margin-left: 20px;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  --swiper-navigation-top-offset: 300px;
+  --swiper-navigation-size: 24px;
+  --swiper-pagination-color: #6f6f6f;
+}
+
+.swiper {
+  width: 100%;
+  margin-right: 0px;
+}
+
+.swiper-container-pointer-events {
+  touch-action: pan-y;
+}
+
+.slide {
+  width: 174px !important;
+  margin-right: 8px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  transition-property: transform;
+}
+
+
+
+@media (min-width: 960px) {
+  .swiper-container {
+    width: calc(100% - 260px);
+    position: static;
+  }
+}
